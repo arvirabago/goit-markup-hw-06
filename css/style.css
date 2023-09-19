@@ -700,3 +700,121 @@ footer .logo-span {
   background-color: var(--ocean);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal {
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.modal-title {
+  color: var(--navyblue);
+  text-align: center;
+}
+
+.modal-contacts {
+  margin-top: 16px;
+}
+.modal-contacts label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  color: var(--lightslate);
+  font-size: 12px;
+}
+
+.modal-contacts input,
+.modal-contacts textarea {
+  display: block;
+  width: 100%;
+  height: 58px;
+  border-radius: 4px;
+}
+
+.modal-contacts textarea {
+  resize: none;
+  height: 120px;
+}
+
+label.modal-contacts-checkbox {
+  display: flex;
+}
+
+.modal-contacts-checkbox input {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  color: var(--lightslate);
+  font: 12px;
+}
+
+.form-submit {
+  display: flex;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: var(--iris);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-line {
+  margin-left: 80px;
+}
+
+.subscribe-line-title {
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-form input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.mail-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 15px;
+
+  color: var(--white);
+  background-color: transparent;
+}
+
+.button-subscribe {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--iris);
+  color: var(--white);
+  margin-left: 24px;
+}
+
+.button-subscribe svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+
+.mail-input:focus {
+  border-color: var(--iris);
+  outline: none;
+}
+
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background-color: var(--ocean);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
