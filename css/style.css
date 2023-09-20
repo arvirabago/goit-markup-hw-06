@@ -867,6 +867,13 @@ label.modal-contacts-checkbox {
   padding: 10px;
 }
 
+.comment-area:hover,
+.comment-area:focus {
+  border-color: var(--iris);
+  outline: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .terms-and-condition-span {
   font-size: 16px;
   margin-left: 10px;
